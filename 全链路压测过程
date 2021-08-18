@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T07:14:56.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="w-9XqdV6N3YlQHvzlmae" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T07:15:44.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="KkHFTsywuFqKCEaAdQkT" version="14.9.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2365" dy="4830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="4565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -311,9 +311,6 @@
         </mxCell>
         <mxCell id="GcqkrOItwmderfr-5AND-77" value="配置同步" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#8db9ff;strokeColor=#8db9ff;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
           <mxGeometry width="300" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GcqkrOItwmderfr-5AND-78" value="链路配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
-          <mxGeometry x="10" y="368" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GcqkrOItwmderfr-5AND-79" value="Mock 配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
           <mxGeometry x="10" y="300" width="280" height="60" as="geometry" />
