@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T07:11:13.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="qDIDO04kb9ny-gwSPl6m" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T07:13:46.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="yZ6W_YR2R9W4ee9Umj--" version="14.9.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1113" dy="4129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4730" dy="6152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -218,6 +218,144 @@
         </mxCell>
         <mxCell id="GcqkrOItwmderfr-5AND-46" value="&lt;div style=&quot;text-align: center&quot;&gt;可以给其他平台提供能力，如故障演练,预案演练，链路巡检&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1140" y="-1880" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-47" value="染色平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="-881" width="1640" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="-741" width="1640" height="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-49" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="-171" width="300" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-50" value="数据容量同水平" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-49">
+          <mxGeometry width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-49">
+          <mxGeometry y="60" width="300" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-52" value="Mysql影子库对齐数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-49">
+          <mxGeometry x="13" y="70" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-53" value="Elasticsearch 数据对齐" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-49">
+          <mxGeometry x="10" y="150" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-54" value="Redis 永久Key对齐" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-49">
+          <mxGeometry x="10" y="235" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-55" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="-681" width="300" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-56" value="数据源创建" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry y="60" width="300" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-58" value="Mysql 影子库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry x="15" y="82" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-59" value="Kafka 影子集群 topic" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry x="15" y="368" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-60" value="Elasticsearch 索引" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry x="15" y="223" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-61" value="RabbitMQ vhost" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry x="15" y="293" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-62" value="Redis DB10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-55">
+          <mxGeometry x="15" y="153" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-63" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="319" width="300" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry y="60" width="300" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-65" value="环境清理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-66" value="染色实例释放" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="10" y="90" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-67" value="Mock失效" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="10" y="180" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-68" value="canal-server释放" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="10" y="260" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-69" value="Redis DB10 释放" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="10" y="340" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-70" value="Kafka 集群释放" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="10" y="420" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-71" value="RabbitMQ 消息释放" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-63">
+          <mxGeometry x="15" y="500" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-72" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="-181" width="300" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#8db9ff;strokeColor=#8db9ff;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry y="70" width="300" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-74" value="apollo 配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry x="10" y="82" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-75" value="服务环境信息配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry x="10" y="153" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-76" value="canal 映射配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry x="10" y="223" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-77" value="配置同步" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#8db9ff;strokeColor=#8db9ff;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-78" value="链路配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry x="10" y="368" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-79" value="Mock 配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f0fff5;strokeColor=#3ce4bb;" vertex="1" parent="GcqkrOItwmderfr-5AND-72">
+          <mxGeometry x="10" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-80" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="-671" width="300" height="434.41" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-81" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry y="58.82000000000005" width="300" height="375.59" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-82" value="通用实例启动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry x="10" y="76.99745098039222" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-83" value="实例" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry width="300" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-84" value="下层(dubbo)服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry x="10" y="147.40745098039218" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-85" value="上层服务启动" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry x="10" y="214.99745098039216" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-86" value="染色实例扩缩容" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-80">
+          <mxGeometry x="10" y="288.5874509803922" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-87" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="-684" width="300" height="434.4100000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-87">
+          <mxGeometry y="58.820000000000164" width="300" height="375.59" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-89" value="Elasticsearch&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-87">
+          <mxGeometry x="15" y="220.00235294117647" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-90" value="Redis DB10" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-87">
+          <mxGeometry x="15" y="147.4149019607844" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-91" value="Mysql 影子库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffecf1;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-87">
+          <mxGeometry x="15" y="76.40745098039224" width="270" height="58.8235294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="GcqkrOItwmderfr-5AND-92" value="数据源创建-数据初步同步" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ff8987;strokeColor=#ff8987;" vertex="1" parent="GcqkrOItwmderfr-5AND-87">
+          <mxGeometry width="300" height="58.8235294117647" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
